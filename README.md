@@ -13,7 +13,7 @@ Regular scrcpy does not cut it as the packaged version might be too old, so you'
 
 # Usage
 
-After cloning the repo, enable wireless debugging on your Android smartphone and replace sample mac address in the script with the mac address of your device.
+After cloning the repo, enable wireless debugging on your Android smartphone and replace sample mac address in the script with the mac address of your device. Also, you need to pair your PC with your smartphone via `adb pair`.
 
 After that, run it with:
 

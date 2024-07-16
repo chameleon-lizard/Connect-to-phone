@@ -1,6 +1,6 @@
 # Connect-to-phone
 
-MacOS's Switch Control for linux.
+MacOS's Switch Control for Android devices. Tested on Linux, but probably works on MacOS and Windows too!
 
 # Requirements
 
@@ -19,4 +19,10 @@ After that, run it with:
 
 ```
 ./connect_to_phone.sh
+```
+
+After successful connection, it writes the credentials used for previous connect to the file at `$HOME/.previous_phone_connect`. To connect to phone faster, you can use the following command:
+
+```
+./connect_to_phone.sh -p $HOME/.previous_phone_connect
 ```
